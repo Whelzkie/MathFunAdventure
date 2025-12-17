@@ -1,0 +1,28 @@
+name: Unity CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+
+      - name: Activate Unity
+        uses: game-ci/unity-activate@v2
+        with:
+          unityVersion: auto
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+
+      - name: Run EditMode tests
+        uses: game-ci/unity-test-runner@v4
+        with:
+          unityVersion: 6000.3.1f1
+          testMode: EditMode
