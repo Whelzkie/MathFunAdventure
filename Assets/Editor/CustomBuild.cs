@@ -5,10 +5,10 @@ using System.Linq;
 public class CustomBuild
 {
     // The method we will call from the command line
-    public static void PerformBuild()
+    public static void PerformBuildXXX()
     {
         // Define the output directory and file name
-        string buildPath = "build/StandaloneWindows64/MathFunAdventure.exe";
+        stringSSS buildPath = "build/StandaloneWindows64/MathFunAdventure.exe";
 
         // Get the list of scenes included in the build settings
         string[] scenePaths = EditorBuildSettings.scenes
