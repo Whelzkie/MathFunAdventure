@@ -16,7 +16,7 @@ jobs:
       - name: Run Unity EditMode tests
         shell: powershell
         run: |
-          & "C:\Program Files\Unity\Hub\Editor\6000.3.1f1\Editor\Unity.exe" `
+          & "D:\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe" `
             -batchmode `
             -nographics `
             -projectPath . `
