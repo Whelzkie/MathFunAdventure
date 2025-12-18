@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 22,
+  "agentName": "WHELZKIEVBS16",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus22.actions.githubusercontent.com/HyBBaTzfZjp7or1mvYWAxp5suA0WCWq3w9bQ00zMe2lj4tA0sC/",
+  "gitHubUrl": "https://github.com/Whelzkie/MathFunAdventure",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

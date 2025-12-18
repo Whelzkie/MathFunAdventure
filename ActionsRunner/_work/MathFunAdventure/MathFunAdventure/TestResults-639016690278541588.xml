@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="6" result="Passed" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.0341728">
+  <test-suite type="TestSuite" id="1000" name="Mathfunadventure" fullname="Mathfunadventure" runstate="Runnable" testcasecount="6" result="Passed" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.034173" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1010" name="EditMode.dll" fullname="D:/GitHub/MathFunAdventure/ActionsRunner/_work/MathFunAdventure/MathFunAdventure/Library/ScriptAssemblies/EditMode.dll" runstate="Runnable" testcasecount="6" result="Passed" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.029148" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="31860" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="Calculatoreditmodetestscript" fullname="Calculatoreditmodetestscript" classname="Calculatoreditmodetestscript" runstate="Runnable" testcasecount="2" result="Passed" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.025680" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="CalculatoreditmodetestscriptSimplePasses" fullname="Calculatoreditmodetestscript.CalculatoreditmodetestscriptSimplePasses" methodname="CalculatoreditmodetestscriptSimplePasses" classname="Calculatoreditmodetestscript" runstate="Runnable" seed="247795502" result="Passed" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.010698" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+]]></output>
+        </test-case>
+        <test-case id="1003" name="CalculatoreditmodetestscriptWithEnumeratorPasses" fullname="Calculatoreditmodetestscript.CalculatoreditmodetestscriptWithEnumeratorPasses" methodname="CalculatoreditmodetestscriptWithEnumeratorPasses" classname="Calculatoreditmodetestscript" runstate="Runnable" seed="1525853014" result="Passed" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.003166" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1004" name="EditModetestscript" fullname="EditModetestscript" classname="EditModetestscript" runstate="Runnable" testcasecount="2" result="Passed" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.001538" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1005" name="EditModetestscriptSimplePasses" fullname="EditModetestscript.EditModetestscriptSimplePasses" methodname="EditModetestscriptSimplePasses" classname="EditModetestscript" runstate="Runnable" seed="1604407224" result="Passed" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.000110" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="EditModetestscriptWithEnumeratorPasses" fullname="EditModetestscript.EditModetestscriptWithEnumeratorPasses" methodname="EditModetestscriptWithEnumeratorPasses" classname="EditModetestscript" runstate="Runnable" seed="2025492657" result="Passed" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.000887" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1007" name="Equalmovementtestscript" fullname="Equalmovementtestscript" classname="Equalmovementtestscript" runstate="Runnable" testcasecount="2" result="Passed" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.000906" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1008" name="EqualmovementtestscriptSimplePasses" fullname="Equalmovementtestscript.EqualmovementtestscriptSimplePasses" methodname="EqualmovementtestscriptSimplePasses" classname="Equalmovementtestscript" runstate="Runnable" seed="1280143004" result="Passed" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.000235" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1009" name="EqualmovementtestscriptWithEnumeratorPasses" fullname="Equalmovementtestscript.EqualmovementtestscriptWithEnumeratorPasses" methodname="EqualmovementtestscriptWithEnumeratorPasses" classname="Equalmovementtestscript" runstate="Runnable" seed="1726639710" result="Passed" start-time="2025-12-18 07:37:07Z" end-time="2025-12-18 07:37:07Z" duration="0.000245" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:/Users/WhelzkieS16/AppData/LocalLow/DefaultCompany/Mathfunadventure\TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
