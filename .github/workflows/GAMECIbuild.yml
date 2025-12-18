@@ -1,4 +1,4 @@
-name: Unity CI (Self-Hosted)
+name: Unity CI Self-Hosted
 
 on:
   push:
