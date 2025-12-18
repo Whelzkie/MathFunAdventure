@@ -16,10 +16,11 @@ jobs:
       - name: Run Unity EditMode tests
         shell: cmd
         run: |
-            "D:\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe" `
-            -batchmode `
-            -nographics `
-            -projectPath . `
-            -runTests `
-            -testPlatform EditMode `
+          "D:\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe" ^
+            -batchmode ^
+            -nographics ^
+            -projectPath . ^
+            -runTests ^
+            -testPlatform EditMode ^
             -logFile -
+
